@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex', sans-serif;
+}:root{
+    --bg-pink : #fff2f2;
+    --bg-green : #f2fff5;
+    --bg-blue : #f2f9ff;
+    --color-pink : #471515;
+    --color-green : #14401d ;
+    --color-blue : #153047;
+    --button-pink : rgba(255,76,76,.15);
+    --button-green : rgba(77,218,110,.15) ;
+    --button-blue : rgba(76,172,255,.15);
+    --start-pink : rgba(255,76,76,.71);
+    --start-green : rgba(77,218,110,.62) ;
+    --start-blue : rgba(76,172,255,.62);
+    --border-pink : rgba(255,76,76,.15);
+    --border-green : rgba(77,218,110,.15) ;
+    --border-blue : rgba(76,172,255,.15);
+
+    
+}
+body {
+    margin-top: 10px;
+}
+
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+body {
+    background: var(--bg-pink);
+}
+img{
+    transition: all .3s ease !important;
+}
+.tit {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 auto;
+    padding: 5px 10px;
+    width: fit-content;
+    background: var(--border-pink);
+    border-radius: 30px;
+    border: 2px solid ;
+    border-color: var(--color-pink);
+    transition: all .3s ease !important;
+}
+
+.tit p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    
+}
+
+.time {
+    text-align: center;
+    display: flex;
+    font-size: 256px;
+    font-weight: 200;
+    line-height: 85%;
+    margin-top: 50px;
+    transition: all .1s ease-in-out;
+    color: var(--color-pink);
+    transition: all .3s ease !important;
+}
+
+.bnts {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 45px;
+    transition: all .3s ease !important;
+}
+.bnts button{
+    
+    border-radius: 24px;
+    transition: all .3s ease;
+    border-color: transparent;
+    transition: all .3s ease !important;
+}
+span{
+    transition: all .3s ease !important;
+}
+.reload,
+.skip{
+    height: 80px;
+    width: 80px;
+    background: var(--button-pink);
+}
+.start{
+    background: var(--start-pink) ;
+    border-radius: 32px !important;
+    width: 128px;
+    height: 96px;
+}
